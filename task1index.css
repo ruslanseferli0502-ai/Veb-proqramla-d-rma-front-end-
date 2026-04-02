@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.card {
+  background-color: #5ec8a0;
+  border-radius: 12px;
+  padding: 40px 60px;
+  text-align: center;
+  width: 80%;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.card-text {
+  font-size: 18px;
+  color: #000;
+}

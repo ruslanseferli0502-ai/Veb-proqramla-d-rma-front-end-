@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  padding: 30px 20px;
+  font-family: sans-serif;
+}
+
+.responsive-box {
+  background-color: #7dd87d;
+  border-radius: 10px;
+  width: 90%;
+  padding: 30px 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.responsive-box p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
