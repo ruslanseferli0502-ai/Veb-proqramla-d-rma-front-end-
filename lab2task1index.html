@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tapşırıq 1 - Qeydiyyat Formu</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Qeydiyyat Formu</h1>
+    <form>
+
+      <div class="form-group">
+        <label for="ad">Ad</label>
+        <input type="text" id="ad" name="ad" placeholder="Adınızı daxil edin">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email ünvanınızı daxil edin">
+      </div>
+
+      <div class="form-group">
+        <label for="sifre">Şifrə</label>
+        <input type="password" id="sifre" name="sifre" placeholder="Şifrənizi daxil edin">
+      </div>
+
+      <div class="form-group">
+        <label>Cins</label>
+        <div class="radio-group">
+          <label><input type="radio" name="cins" value="kisi"> Kişi</label>
+          <label><input type="radio" name="cins" value="qadin"> Qadın</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Hobbilər</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="hobби" value="idman"> İdman</label>
+          <label><input type="checkbox" name="hobbi" value="musiqи"> Musiqi</label>
+          <label><input type="checkbox" name="hobbi" value="oxumaq"> Oxumaq</label>
+          <label><input type="checkbox" name="hobbi" value="səyahət"> Səyahət</label>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">Qeydiyyatdan keç</button>
+
+    </form>
+  </div>
+</body>
+</html>
