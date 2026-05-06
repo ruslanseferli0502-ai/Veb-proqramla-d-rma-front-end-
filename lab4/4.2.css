@@ -1,0 +1,20 @@
+.red-area {
+    background: #ff3300;
+    width: 643px;
+    height: 512px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin: 35px auto;
+}
+
+.blue-square {
+    background: #0000ff;
+    width: 88px;
+    height: 88px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

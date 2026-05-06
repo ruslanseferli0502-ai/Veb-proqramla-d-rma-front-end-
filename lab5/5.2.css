@@ -1,0 +1,52 @@
+body {
+    background-color: #cfcfcf;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.item-card {
+    background: #fff;
+    padding: 14px;
+    width: 285px;
+}
+
+.img-box {
+    position: relative;
+}
+
+.img-box img {
+    width: 100%;
+    display: block;
+}
+
+.click-btn {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    background: #ff3311;
+    color: white;
+    border: none;
+    padding: 4px 9px;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.price {
+    color: #3b8132;
+    font-weight: bold;
+}

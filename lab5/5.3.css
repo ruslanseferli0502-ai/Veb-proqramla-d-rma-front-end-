@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.label {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.margin-box {
+    border: 1px dashed #666;
+    width: 85%;
+    padding: 15px;
+}
+
+.border-box {
+    background-color: #4da375;
+    padding: 20px;
+}
+
+.padding-box {
+    background-color: #dbdbdb;
+    padding: 30px;
+}
+
+.content-box {
+    background-color: #ececec;
+    border: 1px dashed #777;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
