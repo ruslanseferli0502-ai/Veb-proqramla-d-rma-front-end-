@@ -24,3 +24,13 @@ body {
   font-weight: bold;
   color: #000;
 }
+
+@media (max-width: 768px) {
+  .responsive-box {
+    width: 95%;
+    padding: 20px 15px;
+  }
+  .responsive-box p {
+    font-size: 18px;
+  }
+}
